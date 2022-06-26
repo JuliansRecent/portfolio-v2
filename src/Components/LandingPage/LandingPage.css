@@ -1,0 +1,10 @@
+.landing-page-container {
+    min-height: 100vh;
+    color: white;
+}
+
+.hi-statement {
+    font-family: 'Merriweather', sans-serif, serif;
+    font-size: 2rem;
+    color: rgb(236, 178, 96)
+}
