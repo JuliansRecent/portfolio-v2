@@ -2,9 +2,9 @@ import './ProjectsPage.css'
 
 function ProjectsPage(props) {
     return (
-        <div>
+        <nav>
             
-        </div>
+        </nav>
     );
 }
 
