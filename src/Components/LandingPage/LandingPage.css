@@ -6,5 +6,29 @@
 .hi-statement {
     font-family: 'Merriweather', sans-serif, serif;
     font-size: 2rem;
-    color: rgb(236, 178, 96)
+    color: rgb(236, 178, 96);
+}
+
+.im-statement {
+    font-size: 4rem;
+    font-family: 'Merriweather', Times, serif;
+}
+
+.i-have-statement {
+    font-size: 1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+@media (max-width: 600px) {
+    .landing-page-container {
+        padding-bottom: 10vh;
+    }
+
+    .hi-statement {
+        font-size: 1.3rem;
+    }
+
+    .im-statement {
+        font-size: 2.8rem;
+    }
 }

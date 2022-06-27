@@ -12,12 +12,18 @@ body {
   width: 100%;
   min-height: 100%;
   overflow-x: hidden;
+  display: flex;
+  
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: rgb(82, 67, 62);;
+}
+
+main {
+  padding: 0 30px;
 }
 
 code {
@@ -59,4 +65,10 @@ button {
 
   /* Corrects inability to style clickable `input` types in iOS */
   -webkit-appearance: none;
+}
+
+@media (min-width: 600px) {
+  main {
+      padding: 0 125px;
+  }
 }

@@ -1,5 +1,5 @@
 .navbar {
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -22,4 +22,11 @@
     color: inherit;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 1.4rem;
+}
+
+@media (min-width: 600px) {
+    .navbar {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
