@@ -1,0 +1,25 @@
+.about-page-container {
+    min-height: 100vh;
+    color: white;
+}
+
+.collage-picture {
+    width: 100%;
+}
+
+.collage-container {
+    width: 35vw;
+}
+
+.main-text-container {
+    width: 50%;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.about-description {
+    font-size: 1.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
