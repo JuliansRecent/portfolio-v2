@@ -2,9 +2,9 @@ import './ContactPage.css'
 
 function ContactPage(props) {
     return (
-        <div>
+        <section className='contact-page-container'>
             
-        </div>
+        </section>
     );
 }
 

@@ -1,23 +1,35 @@
 .landing-page-container {
     min-height: 100vh;
-    color: white;
 }
 
 .hi-statement {
     font-family: 'Merriweather', sans-serif, serif;
     font-size: 2rem;
-    color: rgb(236, 178, 96);
+    color: white;
 }
 
 .im-statement {
     font-size: 4rem;
     font-family: 'Merriweather', Times, serif;
+    color: whitesmoke;
 }
 
-.i-have-statement {
+.i-specialize-statement {
     font-size: 1.5rem;
-    font-family: Georgia, 'Times New Roman', Times, serif
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: whitesmoke;
 }
+
+.btn {
+    color: white;
+    border-color: white;
+}
+
+.btn:hover {
+    color: grey;
+    border-color: grey;
+}
+
 
 @media (max-width: 600px) {
     .landing-page-container {

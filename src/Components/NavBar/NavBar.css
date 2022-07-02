@@ -1,21 +1,29 @@
 .navbar {
     width: 100%;
     margin: 0 auto;
+    opacity: 100%;
+    background-color: inherit;
+    color: whitesmoke;
 }
 
 .fluid-container {
     width: 100%;
 }
 
-.navbar-brand {
+.brand {
     font-family: 'Playfair Display', serif;
     font-size: 1.8rem;
     font-weight: 600;
+    color: inherit;
+}
+
+.brand:hover {
+    color: grey;
 }
 
 .nav-link:hover {
     cursor: pointer;
-    color: antiquewhite;
+    color: grey;
 }
 
 .nav-link {
