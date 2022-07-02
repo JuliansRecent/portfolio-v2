@@ -1,0 +1,67 @@
+.skills-page-container {
+    min-height: 100vh;
+    width: 100%;
+    color: whitesmoke;
+}
+
+.skills-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.skills-title:after {
+    content: "";
+    display: block;
+    position: relative;
+    top: -15px;
+    width: 75%;
+    height: 1px;
+    margin-left: 85px;
+    background-color: white;
+}
+
+.icon {
+    font-size: 6rem;
+    color: whitesmoke;
+}
+
+.devicon-html5-plain-wordmark {
+    color: rgb(238, 103, 54);
+}
+
+.devicon-css3-plain-wordmark {
+    color: rgb(64, 64, 219);
+}
+
+.devicon-javascript-plain {
+    color: yellow;
+}
+
+.devicon-react-original-wordmark {
+    color: lightblue;
+}
+
+.devicon-mongodb-plain-wordmark {
+    color: rgb(115, 205, 115);
+}
+
+.devicon-git-plain-wordmark {
+    color: rgb(238, 103, 54);
+}
+
+.devicon-github-original-wordmark {
+    color: whitesmoke;
+}
+
+.devicon-bootstrap-plain-wordmark {
+    color: rgb(125, 62, 125);
+}
+
+.devicon-express-original-wordmark {
+    color: whitesmoke;
+}
+
+.devicon-python-plain-wordmark {
+    color: rgb(49, 49, 217);
+}
