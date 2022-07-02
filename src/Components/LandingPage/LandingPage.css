@@ -5,7 +5,7 @@
 .hi-statement {
     font-family: 'Merriweather', sans-serif, serif;
     font-size: 2rem;
-    color: white;
+    color: orange;
 }
 
 .im-statement {
@@ -17,7 +17,7 @@
 .i-specialize-statement {
     font-size: 1.5rem;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: whitesmoke;
+    color: rgb(156, 155, 155);
 }
 
 .btn {

@@ -1,4 +1,4 @@
-import './ProjectsPage.css'
+import './WorksPage.css'
 
 function ProjectsPage(props) {
     return (

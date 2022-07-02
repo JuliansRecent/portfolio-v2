@@ -5,7 +5,6 @@ import WorksPage from "./Components/WorksPage/WorksPage"
 import ContactPage from "./Components/ContactPage/ContactPage"
 import { Routes, Route, Link } from 'react-router-dom'
 
-
 function App() {
   return (
 		<div>
