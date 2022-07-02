@@ -24,20 +24,24 @@ function NavBar(props) {
 	}, [prevScrollPos, visible, handleScroll]);
 
 	return (
-		<nav style={{ top: visible ? '0' : '-120px' }}
-		className='navbar fixed-top navbar-light'>
+		<nav
+			style={{ top: visible ? '0' : '-120px' }}
+			className='navbar fixed-top navbar-light'>
 			<div className='container-fluid'>
 				<a className='brand p-2' href='#'>
 					Julian Segura
 				</a>
 				<ul className='d-flex flex-row align-items-center'>
-					<li className='nav-link p-3'>
+					<li className='nav-link p-2'>
 						<a>About</a>
 					</li>
-					<li className='nav-link p-3'>
+					<li className='nav-link p-2'>
+						<a>Skills</a>
+					</li>
+					<li className='nav-link p-2'>
 						<a>Works</a>
 					</li>
-					<li className='nav-link p-3'>
+					<li className='nav-link p-2'>
 						<a>Contact</a>
 					</li>
 				</ul>

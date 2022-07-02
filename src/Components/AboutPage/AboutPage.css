@@ -1,6 +1,6 @@
 .about-page-container {
     min-height: 50vh;
-    width: 80%;
+    width: 100%;
     color: whitesmoke;
 }
 
@@ -15,13 +15,22 @@
     display: block;
     position: relative;
     top: -15px;
-    width: 65%;
+    width: 60%;
     height: 1px;
     margin-left: 140px;
     background-color: white;
 }
 
 .about-description {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-family: 'Playfair', 'Times New Roman', Times, serif;
+}
+
+.img-container {
+    width: 60%;
+    border: solid 3px white;
+}
+
+.professional-img {
+    width: 100%;
 }
