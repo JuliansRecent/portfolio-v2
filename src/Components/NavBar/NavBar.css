@@ -4,6 +4,7 @@
     opacity: 100%;
     background-color: inherit;
     color: whitesmoke;
+    transition: top 0.3s;
 }
 
 .fluid-container {
