@@ -5,15 +5,13 @@ import '../../Assets/under-construction.jpg'
 function ProjectsPage(props) {
     return (
 			<section className='projects-page-container'>
-				<h2 className='works-title mb-2'>Works</h2>
-				<ul className='projects-container container fluid flex-wrap'>
+				<h2 className='works-title mb-5'>Works</h2>
+				<ul className='projects-container d-flex justify-content-center flex-column align-items-center'>
 					<a href='https://react-mock-clothing-store.netlify.app'>
 						<li className='project-container-container1 mb-2'>
 							<div className='opacity-container'>
 								<div className='project-container container'>
-									<p className='project-title'>
-										Blouson - Personal Project
-									</p>
+									<p className='project-title'>Blouson - Personal Project</p>
 									<p className='project-desc pt-3'>
 										A mock ecommerce store made using React, CSS, and the
 										FakeStoreAPI. Currently, I am making my own API to enhance
@@ -80,13 +78,18 @@ function ProjectsPage(props) {
 						</li>
 					</a>
 					<a href=''>
-						<li className='project-container-container3 mb-3'>
+						<li className='project-container-container2 mb-2'>
 							<div className='opacity-container'>
 								<div className='project-container container'>
 									<p className='project-title'>
-										React Mock Ecomm Store
+										JMS Pet Sitting - Team Project
 									</p>
-									<p className='project-desc'></p>
+									<p className='project-desc'>
+										A web application similar to LinkedIn for the purpose of all
+										things pets, whether it's finding a pet sitter in your area,
+										finding pet sitter gigs, or posting for fun. Currently under
+										construction!
+									</p>
 									<div className='tech-and-icon-container d-flex justify-content-between'>
 										<div>
 											<span className='tech-used'>Technologies Used: </span>
