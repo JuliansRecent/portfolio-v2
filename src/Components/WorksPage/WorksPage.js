@@ -77,7 +77,7 @@ function ProjectsPage(props) {
 							</div>
 						</li>
 					</a>
-					<a href=''>
+					{/* <a href=''>
 						<li className='project-container-container2 mb-2'>
 							<div className='opacity-container'>
 								<div className='project-container container'>
@@ -114,7 +114,7 @@ function ProjectsPage(props) {
 								</div>
 							</div>
 						</li>
-					</a>
+					</a> */}
 				</ul>
 			</section>
 		);
