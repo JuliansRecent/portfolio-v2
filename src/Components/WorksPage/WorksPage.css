@@ -1,4 +1,65 @@
 .projects-page-container {
     min-height: 100vh;
+    width: 100%;
     color: white;
+}
+
+.works-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+}
+
+.works-title:after {
+    content: "";
+    display: block;
+    position: relative;
+    top: -15px;
+    width: 70%;
+    height: 1px;
+    margin-left: 100px;
+    background-color: white;
+}
+
+.projects-container {
+    height: 100%;
+    width: 100%;
+}
+
+.project-container-container {
+    height: 100%;
+    width: 100%;
+    height: 15rem;
+    background-image: url('../../Assets/Blouson-photo.png');
+    background-size: cover;
+}
+
+.opacity-container {
+    height: 100%;
+    width: 100%;
+    opacity: 80%;
+    border: solid 1px black;
+    background-color: black;
+    font-weight: 500;
+}
+
+.project-title {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.project-desc{
+    font-size: 1rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.tech-used {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.1rem;
+}
+
+.tech {
+    font-size: 0.9rem;
 }

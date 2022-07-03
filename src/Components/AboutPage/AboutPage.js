@@ -5,7 +5,7 @@ function AboutPage(props) {
     return (
 			<section className='about-page-container d-flex flex-row justify-content-center'>
 				<aside className='main-text-container d-flex flex-column justify-content-center'>
-                    <h2 className='title'>About Me</h2>
+                    <h2 className='about-title'>About Me</h2>
                     <p className='about-description'>
                         Hi! My name is Julian Segura and I love web development! I come from a medical background with
                         attention to detail, and a passion for helping others. 
