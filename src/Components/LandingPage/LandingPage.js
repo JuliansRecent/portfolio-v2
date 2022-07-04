@@ -1,4 +1,5 @@
 import './LandingPage.css'
+import  resume from '../../Assets/julian-seguras-resume.pdf'
 
 function LandingPage(props) {
     return (
@@ -10,9 +11,18 @@ function LandingPage(props) {
 					Vegas, Nevada.
 				</p>
 				<div className='d-flex gap-3'>
-					<a className='btn' href='Assets/Julian-Seguras-Resume.pdf' target='_blank'>
-					<button>My Resume</button></a>
-					<button className='btn'>My Work</button>
+					<a
+						className='btn'
+						href={resume}
+						rel='noreferrer'
+						target='_blank'>
+						<button>My Resume</button>
+					</a>
+					<button
+						className='btn'
+						onClick={() => window.location.replace('/#works')}>
+						My Work
+					</button>
 				</div>
 			</section>
 		);
