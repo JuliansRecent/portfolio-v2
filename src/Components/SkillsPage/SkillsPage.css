@@ -1,5 +1,5 @@
 .skills-page-container {
-    min-height: 100vh;
+    min-height: 80vh;
     width: 100%;
     color: whitesmoke;
 }
@@ -22,7 +22,7 @@
 }
 
 .icon {
-    font-size: 6rem;
+    font-size: 7rem;
     color: whitesmoke;
 }
 

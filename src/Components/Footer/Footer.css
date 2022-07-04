@@ -1,0 +1,36 @@
+.footer-page-container {
+    min-height: 30vh;
+    width: 100%;
+    color: whitesmoke;
+}
+
+.footer-title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.8rem;
+    font-weight: 900;
+    color: white;
+}
+
+.footer-title:after {
+    content: "";
+    display: block;
+    position: relative;
+    /* top: -15px; */
+    width: 300%;
+    height: 1px;
+    background-color: white;
+    margin-left: -80px;
+}
+
+.social-link {
+    height: 3rem;
+    width: 3rem;
+}
+
+.icon-container {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}

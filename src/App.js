@@ -5,6 +5,7 @@ import WorksPage from "./Components/WorksPage/WorksPage"
 import ContactPage from "./Components/ContactPage/ContactPage"
 import { Routes, Route, Link } from 'react-router-dom'
 import SkillsPage from "./Components/SkillsPage/SkillsPage";
+import Footer from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -19,7 +20,9 @@ function App() {
 				<WorksPage />
 				<ContactPage />
 			</main>
-			<footer></footer>
+			<footer>
+				<Footer />
+			</footer>
 		</div>
 	);
 }

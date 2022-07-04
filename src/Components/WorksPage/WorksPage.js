@@ -4,11 +4,11 @@ import '../../Assets/under-construction.jpg'
 
 function ProjectsPage(props) {
     return (
-			<section className='projects-page-container'>
+			<section className='projects-page-container' id='works'>
 				<h2 className='works-title mb-5'>Works</h2>
 				<ul className='projects-container d-flex justify-content-center flex-column align-items-center'>
 					<a href='https://react-mock-clothing-store.netlify.app'>
-						<li className='project-container-container1 mb-2'>
+						<li className='project-container-container1 mb-4'>
 							<div className='opacity-container'>
 								<div className='project-container container'>
 									<p className='project-title'>Blouson - Personal Project</p>
@@ -40,7 +40,7 @@ function ProjectsPage(props) {
 						</li>
 					</a>
 					<a href=''>
-						<li className='project-container-container2 mb-2'>
+						<li className='project-container-container2 mb-4'>
 							<div className='opacity-container'>
 								<div className='project-container container'>
 									<p className='project-title'>
@@ -49,8 +49,13 @@ function ProjectsPage(props) {
 									<p className='project-desc'>
 										A web application similar to LinkedIn for the purpose of all
 										things pets, whether it's finding a pet sitter in your area,
-										finding pet sitter gigs, or posting for fun. Currently under
-										construction!
+										finding pet sitter gigs, or posting for fun. 
+										<br/>
+										<br/>
+										<strong>
+											Currently under
+											construction!
+										</strong>
 									</p>
 									<div className='tech-and-icon-container d-flex justify-content-between'>
 										<div>

@@ -7,7 +7,7 @@ function ContactPage(props) {
 		return <p>Thank you, I will get back to you ASAP!</p>;
 	}
 	return (
-		<section className='contact-page-container container-fluid d-flex flex-column justify-content-center'>
+		<section className='contact-page-container container-fluid d-flex flex-column justify-content-center' id='contact'>
 			<h2 className='contact-title pb-4'>Contact</h2>
 			<form onSubmit={handleSubmit}>
 				<label htmlFor='email'>Email</label>

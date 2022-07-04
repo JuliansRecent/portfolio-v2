@@ -33,16 +33,16 @@ function NavBar(props) {
 				</a>
 				<ul className='d-flex flex-row align-items-center'>
 					<li className='nav-link p-2'>
-						<a>About</a>
+						<a onClick={() => window.location.replace('/#about')}>About</a>
 					</li>
 					<li className='nav-link p-2'>
-						<a>Skills</a>
+						<a onClick={() => window.location.replace('/#skills')}>Skills</a>
 					</li>
 					<li className='nav-link p-2'>
-						<a>Works</a>
+						<a onClick={() => window.location.replace('/#works')}>Works</a>
 					</li>
 					<li className='nav-link p-2'>
-						<a>Contact</a>
+						<a onClick={() => window.location.replace('/#contact')}>Contact</a>
 					</li>
 				</ul>
 			</div>

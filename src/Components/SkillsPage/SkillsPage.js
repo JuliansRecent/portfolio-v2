@@ -2,7 +2,7 @@ import './SkillsPage.css'
 
 function SkillsPage(props) {
     return (
-			<section className='skills-page-container container-fluid d-flex flex-column justify-content-center'>
+			<section className='skills-page-container container-fluid d-flex flex-column justify-content-center' id='skills'>
 				<h2 className='skills-title pb-4'>Skills</h2>
 				<div className='skills-svg-container flex-wrap d-flex container justify-content-center'>
 					<i className='icon p-1 devicon-html5-plain-wordmark'></i>
