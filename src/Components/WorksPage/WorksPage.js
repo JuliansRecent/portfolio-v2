@@ -51,7 +51,6 @@ function ProjectsPage(props) {
 										things pets, whether it's finding a pet sitter in your area,
 										finding pet sitter gigs, or posting for fun. 
 										<br/>
-										<br/>
 										<strong>
 											Currently under
 											construction!
