@@ -106,3 +106,8 @@
 .btn {
     font-size: 0.8rem;
 }
+
+a:hover {
+    cursor: pointer;
+    color: rgb(174, 174, 174) !important;
+}
