@@ -36,3 +36,9 @@ textarea {
 .btn {
     width: 100%;
 }
+
+.success-message {
+    color: white;
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+}

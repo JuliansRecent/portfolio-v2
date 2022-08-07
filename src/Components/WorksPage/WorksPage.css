@@ -30,7 +30,7 @@
     height: 100%;
     width: 100%;
     height: 15rem;
-    background-image: url('../../Assets/Blouson-photo.png');
+    background-image: url('../../Assets/movingco-photo.png');
     background-size: cover;
 }
 
@@ -43,10 +43,8 @@
     height: 100%;
     width: 100%;
     height: 15rem;
-    background-image: url('../../Assets/under-construction.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url('../../Assets/redoit-photo.png');
+    background-size: cover;
 }
 
 .project-container-container2:hover {
@@ -58,10 +56,8 @@
     height: 100%;
     width: 100%;
     height: 15rem;
-    background-image: url('../../Assets/under-construction.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+    background-image: url('../../Assets/Blouson-photo.png');
+    background-size: cover;
 }
 
 .project-container-container3:hover {
@@ -72,7 +68,7 @@
 .opacity-container {
     height: 100%;
     width: 100%;
-    opacity: 80%;
+    opacity: 70%;
     border: solid 1px black;
     background-color: black;
     font-weight: 500;
