@@ -21,7 +21,7 @@ function ContactPage(props) {
 					field='message'
 					errors={state.errors}
 				/>
-				<button type='submit' disabled={state.submitting} className='btn'>
+				<button type='submit' disabled={state.submitting} className='btn submit-btn'>
 					Submit
 				</button>
 			</form>

@@ -42,3 +42,10 @@ textarea {
     font-size: 2rem;
     font-family: 'Times New Roman', Times, serif;
 }
+
+
+
+.submit-btn {
+    text-align: center;
+    width: 20%;
+}
