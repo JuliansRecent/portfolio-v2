@@ -107,3 +107,7 @@ a:hover {
     cursor: pointer;
     color: rgb(174, 174, 174) !important;
 }
+
+.project-links {
+    gap: 1rem;
+}
