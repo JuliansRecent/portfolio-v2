@@ -9,7 +9,7 @@ function AboutPage(props) {
 				<h2 className='about-title'>About Me</h2>
 				<div className='text-and-img-container'>
 					<p className='about-description'>
-						Hi! My name is Julian Segura and I love web development! I come from
+						Hi! My name is Julian Segura, I come from
 						a medical background with attention to detail, and a passion for
 						helping others.
 						<br /> <br />
@@ -18,8 +18,8 @@ function AboutPage(props) {
 						creating optimal solutions.
 						<br /> <br />
 						Outside of tech, I love being outdoors, whether it's golfing on the
-						weekends or surfing on vacation. I also really enjoy rock climbing
-						and trails with my dog, Sheba.
+						weekends or surfing on vacation. I also enjoy rock climbing
+						and trails with my dog!
 					</p>
 					<div className='img-container d-flex align-self-center'>
 						<img
