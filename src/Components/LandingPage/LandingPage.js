@@ -1,5 +1,5 @@
 import './LandingPage.css'
-import  resume from '../../Assets/julian-seguras-resume.pdf'
+import  resume from '../../Assets/julian-segura-resume.pdf'
 
 function LandingPage(props) {
     return (
