@@ -41,7 +41,7 @@ function ProjectsPage(props) {
 						</div>
 					</div>
 
-					<a href='https://redoit.netlify.app/' className='projects-container'>
+					{/* <a href='https://redoit.netlify.app/' className='projects-container'>
 						<li className='project-container-container2 mb-1'></li>
 					</a>
 					<div className='project-container container'>
@@ -72,7 +72,7 @@ function ProjectsPage(props) {
 								</a>
 							</ul>
 						</div>
-					</div>
+					</div> */}
 
 					<a href='https://blouson.netlify.app/' className='projects-container'>
 						<li className='project-container-container3 mb-1'></li>
